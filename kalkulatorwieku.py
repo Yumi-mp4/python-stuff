@@ -9,7 +9,7 @@ dzien = 22
 dzisiaj = date.today()
 
 lata = dzisiaj.year - rok
-miesiace = dzisiajmonth - miesiac
+miesiace = dzisiaj.month - miesiac
 dni = dzisiaj.day - dzien
 
 if dni < 0:
